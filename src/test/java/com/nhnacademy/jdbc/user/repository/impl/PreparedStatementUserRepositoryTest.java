@@ -10,7 +10,7 @@ import java.util.Optional;
 @TestMethodOrder(value = MethodOrderer.OrderAnnotation.class)
 class PreparedStatementUserRepositoryTest {
 
-    //todo#16--PreparedStatement-를 실행하여 검증합니다.
+    // PreparedStatement-를 실행하여 검증합니다.
 
     static UserRepository userRepository;
 

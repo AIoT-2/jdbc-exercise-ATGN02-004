@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @Slf4j
 @TestMethodOrder(value = MethodOrderer.OrderAnnotation.class)
 class StatementUserRepositoryTest {
-    //todo#6-StatementUserRepositoryTest를 실행하여 검증합니다.
+    // StatementUserRepositoryTest를 실행하여 검증합니다.
 
     static UserRepository userRepository;
 
