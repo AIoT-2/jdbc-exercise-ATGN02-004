@@ -20,8 +20,8 @@ class BasicConnectionPoolTest {
 
     @BeforeAll
     static void setUp() {
-        //todo#0 - jdbcUrl, username, password를 설정하세요
-        basicConnectionPool = new BasicConnectionPool(com.mysql.cj.jdbc.Driver.class.getName(),"","","",5);
+        // jdbcUrl, username, password를 설정하세요
+        basicConnectionPool = new BasicConnectionPool(com.mysql.cj.jdbc.Driver.class.getName(),"jdbc:mysql://220.67.216.14:13306/nhn_academy_204","nhn_academy_204","nK3dripi!",5);
     }
 
     @AfterAll
